@@ -1,85 +1,29 @@
 {
-  "user": [
+  "usuario": [
     {
       "id": 1,
-      "nome": "Maria Silva",
-      "email": "mariasilva@gmail.com",
-      "password": "12345maria"
-    },
-    {
-      "nome": "Jussara Gomes",
-      "id": 3
+      "nome":"joao",
+      "sobrenome": "Sousa",
+      "email": "joao@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21"
     }
   ],
-  "relative": [
-    {
-      "id": 2,
-      "user_id": 1,
-      "nome": "Maria Silva Filha",
-      "birth": "2008-12-08",
-      "relative_type": "Filha"
-    },
-    {
-      "id": 5,
-      "user_id": 1,
-      "nome": "Ana Silva Filha",
-      "birth": "2008-12-08",
-      "relative_type": "Filha"
-    }
-  ],
-  "ingredient": [
+  "ingrediente": [
     {
       "id": 3,
-      "nome": "Arroz",
-      "quantity": "250g"
-    },
-    {
-      "id": 6,
-      "nome": "Frango",
-      "quantity": "250g"
-    }
-  ],
-  "menu": [
-    {
-      "id": 4,
-      "user_id": 1,
-      "relatives": [
-        2,
-        5
-      ],
-      "type": "Dinner",
-      "ingredients": [
-        3,
-        6
-      ]
+      "nome": "Arroz"
     }
   ],
   "nutricionista": [
     {
       "id": 1,
-      "crn": "A1454A",
-      "nome": "Renan",
-      "sobrenome": "Tavares",
-      "email": "renantava@gmail.com",
-      "senha": "renaN$tav!",
-      "nascimento": "01-02-2002",
-      "endereco": {
-        "rua": "Rua Antoninha Ciberinha",
-        "numero": 47
-      }
-    },
-    {
-      "id": 2,
-      "crn": "B1454A",
-      "nome": "Maria",
-      "sobrenome": "Gomes",
-      "email": "magomes@gmail.com",
-      "senha": "MariMariG0",
-      "nascimento": "21-05-2000",
-      "endereco": {
-        "rua": "Rua do Limoeiro",
-        "numero": 12
-      }
+      "crn": "123-pb",
+      "nome":"Paulo",
+      "sobrenome": "banana",
+      "email": "paulo@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21"
     }
   ]
 }
