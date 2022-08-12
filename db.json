@@ -17,22 +17,22 @@
   ],
   "nutricionista": [
     {
-      "nome": "Thiago",
-      "sobrenome": "Felix",
-      "email": "thiago@gmail.com",
-      "senha": "54652",
-      "nascimento": "64651",
-      "crn": "654sda",
-      "id": 3
-    },
-    {
-      "nome": "Alexandre",
+      "nome": "Alexandrinasfaf",
       "sobrenome": "Nero",
-      "email": "alenero@gmail.com",
+      "email": "alenira@gmail.com",
       "senha": "454df54d6",
       "nascimento": "1945-05-15",
-      "crn": "54fr",
+      "crn": "5555",
       "id": 5
+    },
+    {
+      "nome": "Hiago",
+      "sobrenome": "Dantas",
+      "email": "hiago@gmail.com",
+      "senha": "4653123asd",
+      "nascimento": "2000-12-02",
+      "crn": "123S",
+      "id": 6
     }
   ]
 }
