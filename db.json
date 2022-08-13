@@ -1,12 +1,19 @@
 {
   "usuario": [
     {
-      "nome": "joao",
-      "sobrenome": "Sousa",
-      "email": "joao@email.com",
-      "senha": "12345",
-      "nascimento": "2020-09-21",
-      "id": 1
+      "id": 1,
+      "nome": "Daniel",
+      "sobrenome": "C. da Costa",
+      "cpf": "123.456.789-00",
+      "nascimento": "15-10-1999",
+      "contato": "(83) 9 9999-9999",
+      "email": "daniel@email.com",
+      "senha": "123456",
+      "endereco": {
+        "estado": "Paraíba",
+        "cidade": "Guarabira",
+        "cep": "58200-000"
+      }
     }
   ],
   "ingrediente": [
