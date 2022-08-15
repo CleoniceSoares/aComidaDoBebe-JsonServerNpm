@@ -2,18 +2,11 @@
   "usuario": [
     {
       "id": 1,
-      "nome": "Daniel",
-      "sobrenome": "C. da Costa",
-      "cpf": "123.456.789-00",
-      "nascimento": "15-10-1999",
-      "contato": "(83) 9 9999-9999",
-      "email": "daniel@email.com",
-      "senha": "123456",
-      "endereco": {
-        "estado": "Paraíba",
-        "cidade": "Guarabira",
-        "cep": "58200-000"
-      }
+      "nome": "joao",
+      "sobrenome": "Sousa",
+      "email": "joao@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21"
     }
   ],
   "ingrediente": [
@@ -22,24 +15,50 @@
       "id": 3
     }
   ],
+  "grupo": [
+    {
+      "nome": "fruta",
+      "id": 1
+    }
+  ],
   "nutricionista": [
     {
-      "nome": "Alexandrinasfaf",
-      "sobrenome": "Nero",
-      "email": "alenira@gmail.com",
-      "senha": "454df54d6",
-      "nascimento": "1945-05-15",
-      "crn": "5555",
+      "crn": "123-pb",
+      "nome": "Paulo",
+      "sobrenome": "banana",
+      "email": "paulo@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21",
       "id": 5
-    },
+    }
+  ],
+  "membro": [
     {
-      "nome": "Hiago",
-      "sobrenome": "Dantas",
-      "email": "hiago@gmail.com",
-      "senha": "4653123asd",
-      "nascimento": "2000-12-02",
-      "crn": "123S",
-      "id": 6
+      "nome": "Ramon",
+      "sobrenome": "Silva",
+      "parentesco": "Filha",
+      "nascimento": "2022-08-09",
+      "responsavel": {
+        "id": 13
+      }
+    }
+  ],
+  "responsavel":[
+    {
+      "nome":"Vitor",
+      "sobrenome": "Silva",
+      "email": "silva@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21"
+    }
+  ],
+  "endereco": [
+    {
+      "nome":"Vitor",
+      "sobrenome": "Silva",
+      "email": "silva@email.com",
+      "senha": "12345",
+      "nascimento": "2020-09-21"
     }
   ]
 }
