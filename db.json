@@ -1,4 +1,10 @@
 {
+  "login": [
+    {
+      "email": "joao@email.com",
+      "senha": "12345"
+    }
+  ],
   "usuario": [
     {
       "nome": "joao",
