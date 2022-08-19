@@ -1,238 +1,267 @@
 {
-    "user": [
+  "user": [
+    {
+      "nome": "Camisa Java 2",
+      "email": "caju@teste.com",
+      "senha": "1231dsa",
+      "id": 1
+    },
+    {
+      "nome": "Caju",
+      "email": "caju@teste.com",
+      "senha": "cajuzinho123",
+      "id": 2
+    },
+    {
+      "nome": "Daniel Cordeiro da Costa",
+      "email": "caju@teste.com",
+      "senha": "dasd123",
+      "id": 3
+    }
+  ],
+  "relative": [
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "Maria Silva Filha",
+      "birth": "2008-12-08",
+      "relative_type": "Filha"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "name": "Ana Silva Filha",
+      "birth": "2008-12-08",
+      "relative_type": "Filha"
+    }
+  ],
+  "ingredient": [
+    {
+      "nome": "Arroz",
+      "quantity": "250g",
+      "id": 1
+    },
+    {
+      "nome": "Feijão",
+      "quantity": "250g",
+      "id": 2
+    }
+  ],
+  "nutricionista": [
+    {
+      "nome": "Daniel Cordeiro da Costa",
+      "crn": "123456789",
+      "email": "caju@teste.com",
+      "telefone": "(83) 9 9999-9999",
+      "id": 1
+    },
+    {
+      "nome": "Daniel Cordeiro da Costa",
+      "quantity": "",
+      "crn": "123456",
+      "email": "danielcordeirosqn2@gmail.com",
+      "telefone": "83993523059",
+      "id": 2
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "relatives": [
         {
-            "id": 1,
-            "name": "Maria Silva",
-            "email": "mariasilva@gmail.com",
-            "password": "12345maria"
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
         }
-    ],
-    "relative": [
+      ],
+      "type": "Breakfast",
+      "ingredients": [
         {
-            "id": 2,
-            "user_id": 1,
-            "name": "Maria Silva Filha",
-            "birth": "2008-12-08",
-            "relative_type": "Filha"
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
         },
         {
-            "id": 5,
-            "user_id": 1,
-            "name": "Ana Silva Filha",
-            "birth": "2008-12-08",
-            "relative_type": "Filha"
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
         }
-    ],
-    "ingredient": [
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "relatives": [
         {
-            "id": 3,
-            "name": "Arroz",
-            "quantity": "250g"
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
         },
         {
-            "id": 6,
-            "name": "Frango",
-            "quantity": "250g"
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
         }
-    ],
-    "menu": [
+      ],
+      "type": "Lunch",
+      "ingredients": [
         {
-            "id": 1,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Breakfast",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
         },
         {
-            "id": 2,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Lunch",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
-        }, 
-        {
-            "id": 3,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Snack",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Snack",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Dinner",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "user_id": 1,
-            "relatives": [
-                {
-                    "id": 2,
-                    "user_id": 1,
-                    "name": "Maria Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                },
-                {
-                    "id": 5,
-                    "user_id": 1,
-                    "name": "Ana Silva Filha",
-                    "birth": "2008-12-08",
-                    "relative_type": "Filha"
-                }
-            ],
-            "type": "Dinner",
-            "ingredients": [
-                {
-                    "id": 3,
-                    "name": "Arroz",
-                    "quantity": "250g"
-                },
-                {
-                    "id": 6,
-                    "name": "Frango",
-                    "quantity": "250g"
-                }
-            ]
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
         }
-    ]
+      ]
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "relatives": [
+        {
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        }
+      ],
+      "type": "Snack",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
+        },
+        {
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "relatives": [
+        {
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        }
+      ],
+      "type": "Snack",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
+        },
+        {
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "relatives": [
+        {
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        }
+      ],
+      "type": "Dinner",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
+        },
+        {
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "relatives": [
+        {
+          "id": 2,
+          "user_id": 1,
+          "name": "Maria Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        },
+        {
+          "id": 5,
+          "user_id": 1,
+          "name": "Ana Silva Filha",
+          "birth": "2008-12-08",
+          "relative_type": "Filha"
+        }
+      ],
+      "type": "Dinner",
+      "ingredients": [
+        {
+          "id": 3,
+          "name": "Arroz",
+          "quantity": "250g"
+        },
+        {
+          "id": 6,
+          "name": "Frango",
+          "quantity": "250g"
+        }
+      ]
+    }
+  ]
 }
